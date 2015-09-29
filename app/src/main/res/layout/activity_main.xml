@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <EditText
+        android:id="@+id/SSID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入你的热点名称"/>
+
+    <EditText
+        android:id="@+id/wifiPWD"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入你要设置的wifi热点密码"/>
+
+    <Button
+        android:id="@+id/btnOpenAP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="开启AP"
+        />
+
+    <Button
+        android:id="@+id/btnCloseAP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="关闭AP"
+        />
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="扫描网络"
+        />
+
+
+    <Button
+        android:id="@+id/btnConnectAP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="配对"
+        />
+
+
+    <Button
+        android:id="@+id/btnGetConnectedIP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="查看已连接设备IP"
+        />
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/testInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        />
+
+</LinearLayout>

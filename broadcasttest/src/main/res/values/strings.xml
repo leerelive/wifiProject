@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Broadcast</string>
+    <string name="counter">Counter: </string>
+    <string name="start">Start Counter</string>
+    <string name="stop">Stop Counter</string>
+</resources>
